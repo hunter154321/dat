@@ -20,7 +20,7 @@ void display()
 	buf = f.getEvBuffer();
 	f.codaRead();
     
-    // Initialize the tree
+    // Initialize the tree (github edit)
     TTree *tree = new TTree("tree", "Decoded Data Tree");
     tree->Branch("adc1", &adc1, "adc1/I");
     tree->Branch("adc2", &adc2, "adc2/I");
